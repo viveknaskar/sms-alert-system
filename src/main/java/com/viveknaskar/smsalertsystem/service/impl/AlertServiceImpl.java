@@ -1,9 +1,10 @@
-package com.viveknaskar.smsalertsystem.service;
+package com.viveknaskar.smsalertsystem.service.impl;
 
 import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 import com.viveknaskar.smsalertsystem.domain.AlertMessage;
 import com.viveknaskar.smsalertsystem.domain.User;
+import com.viveknaskar.smsalertsystem.service.AlertService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
