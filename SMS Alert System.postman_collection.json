@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "753b161c-b18c-41dc-850a-f16ee2e74a3a",
+		"name": "SMS Alert System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Send SMS",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"alert-message\": \"hello there!\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/sms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"sms"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
