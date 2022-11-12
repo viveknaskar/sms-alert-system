@@ -2,7 +2,7 @@
 
 An SMS alert System created using Twilio and Java.
 
-## Prerequisites:
+## Prerequisites
 
 - Java 11
 - Spring Boot 2.7.x
